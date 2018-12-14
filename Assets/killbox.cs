@@ -12,12 +12,15 @@ public class killbox : MonoBehaviour {
 
     private GameObject pot;
     private GameObject burger;
+    private GameObject message;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         pot = GameObject.Find("marm");
         burger = GameObject.Find("myBurger");
+        message = GameObject.Find("win");
         burger.SetActive(false);
+        message.SetActive(false);
 
     }
 	    
@@ -55,6 +58,7 @@ public class killbox : MonoBehaviour {
         {
             pot.SetActive(false);
             burger.SetActive(true);
+            message.SetActive(true);
         }
 
     }
