@@ -16,8 +16,9 @@ public class killbox : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        //if(other.gameObject.tag == "food"){
-            Destroy(this.gameObject);
-        //}
+        Debug.Log(other.gameObject.tag);
+        if(other.gameObject.tag == "food"){
+            Destroy(other.gameObject);
+        }
     }
 }
