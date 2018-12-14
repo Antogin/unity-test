@@ -152,6 +152,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010528404258, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 2}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d70d80ddd390f41a1bdde5957f74f0, type: 2}
   m_IsPrefabAsset: 0
@@ -183,6 +187,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.10232361, y: 0.050105505, z: 0.08873047}
   m_Center: {x: 0, y: -0.000000004656613, z: 0}
+--- !u!54 &244397658
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 244397652}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &414026310
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,6 +312,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012081886716, guid: 0b2c2c6617d3fb54ab69e7ff4da40867, type: 2}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b2c2c6617d3fb54ab69e7ff4da40867, type: 2}
   m_IsPrefabAsset: 0
@@ -324,6 +347,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1218103, y: 0.018327665, z: 0.09660518}
   m_Center: {x: 0, y: -0.0000000144355, z: 0}
+--- !u!54 &638642994
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 638642988}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &757012021
 Prefab:
   m_ObjectHideFlags: 0
@@ -484,6 +522,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1067201021930494, guid: 097013ceeb8052648be3891c0984df9a, type: 2}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 097013ceeb8052648be3891c0984df9a, type: 2}
   m_IsPrefabAsset: 0
@@ -515,6 +557,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0888623, y: 0.10790871, z: 0.084785536}
   m_Center: {x: 0, y: 0.0000000055879354, z: 0}
+--- !u!54 &1116154660
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1116154654}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1240962977
 Prefab:
   m_ObjectHideFlags: 0
@@ -554,6 +611,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011262040222, guid: 196fe542ad163b149adf1ca04c19c753, type: 2}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 196fe542ad163b149adf1ca04c19c753, type: 2}
   m_IsPrefabAsset: 0
@@ -585,6 +646,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14453673, y: 0.15990265, z: 0.011993179}
   m_Center: {x: 0, y: 0, z: -0.00012607593}
+--- !u!54 &1240962984
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1240962978}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1301128621
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,7 +1020,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4927176745116186, guid: 7c8d30948ecf6154084081cfe989dfd2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.44
+      value: -0.32
       objectReference: {fileID: 0}
     - target: {fileID: 4927176745116186, guid: 7c8d30948ecf6154084081cfe989dfd2, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1016,6 +1092,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010864150500, guid: 07c1ce2b91eb18f4c83d7d36268a0341, type: 2}
+      propertyPath: m_TagString
+      value: food
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c1ce2b91eb18f4c83d7d36268a0341, type: 2}
   m_IsPrefabAsset: 0
@@ -1047,3 +1127,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.25120056, y: 0.041573964, z: 0.049811877}
   m_Center: {x: 0, y: 9.313226e-10, z: -0.000000009313226}
+--- !u!54 &2049094992
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2049094986}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
